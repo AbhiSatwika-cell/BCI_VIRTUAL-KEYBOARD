@@ -25,4 +25,30 @@ This project develops a **Brain-Computer Interface (BCI) Virtual Keyboard** that
 2. **Preprocessing**: The raw EEG signals undergo cleaning and transformation.  
 3. **Model Training**: The CNN learns patterns corresponding to different characters.  
 4. **Live Predictions**: The trained model deciphers letters from EEG input.  
-5. **Virtual Keyboard Output**: The recognized letters appear on the GUI.  
+5. **Virtual Keyboard Output**: The recognized letters appear on the GUI.
+
+## Download EEG Datasets
+You can download  EEG datasets from the following link:
+- https://drive.google.com/drive/folders/1bPkUAXfaNIASRYOV8dfZ4E5meMvylhy_?usp=drive_link
+ 
+## Future Enhancements
+- Add support for numbers and symbols.
+- Improve prediction accuracy and real-time performance.
+- Introduce multi-language support for the virtual keyboard.
+
+## Getting Started
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/BCI_Virtual_Keyboard.git
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```bash
+   python main.py
+   ```
+
+## Contributions
+We welcome contributions! Feel free to fork this repository, submit pull requests, or open issues to suggest improvements or report bugs.
